@@ -1,0 +1,29 @@
+fieldset{
+    border: 1px solid red;
+}
+
+legend{
+    font-size: 2rem;
+    margin: 0 0 0 3rem;
+    font-weight: bold;
+}
+
+.sender_details{
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    
+}
+
+ul li{
+    padding: .5rem;
+    margin: 1rem 0 1rem 1rem;
+}
+
+.field{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.data{
+    font-size: 1.5rem;
+}

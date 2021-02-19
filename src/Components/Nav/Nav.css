@@ -1,0 +1,99 @@
+.navbar{
+    width: 100%;
+    height: 5rem;
+    background-color: orange;
+    display: flex;
+}
+
+.nav_brand{
+    font-size: 3rem;
+    font-weight: bold;
+    flex: 60%;
+    display: flex;
+    align-content: center;
+    margin-left: 1.5rem;
+    overflow: hidden;
+    text-decoration: none;
+    color: #161d6f;
+}
+
+.profile_logo{
+    display: flex;
+    flex: 40%;
+    justify-content: flex-end;
+    align-content: center;
+    margin-right: 5rem;
+    margin-top: 1.2rem;
+}
+.logo{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.txt{
+    font-size: 2rem;
+    margin-top: .4rem;
+    padding-left: .2rem;
+    font-weight: unset;
+}
+Link{
+    text-decoration: none;
+}
+.flx:hover{
+    cursor: pointer;
+}
+
+/* menu */
+.m_f{
+    display: flex;
+    justify-content: flex-end;
+}
+.hide{
+    display: none;
+}
+.menu{
+    background-color: rgb(252, 186, 65);
+    width: 19rem;
+    margin: 1rem 1rem 0 0;
+    border-radius: 1rem;
+    visibility: visible;
+    transition: 1s;
+    position: absolute;
+}
+.menu_head{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.menu_head h4,h3{
+    font-weight: 400;
+}
+.menu_head h3{
+    margin-top: .7rem;
+}
+.menu ul li{
+    font-size: 2rem;
+    font-weight: 100;
+}
+.menu ul li .l{
+    margin: 0 .5rem 0 .2rem;
+}
+
+@media (max-width : 321px){
+    *{
+        font-size: 35%;
+    }
+    .txt{
+        margin-top: 2rem;
+    }
+}
+
+@media (min-width : 321px) and (max-width : 539px){
+    *{
+        font-size: 43%;
+    }
+    .txt{
+        margin-top: .9rem;
+    }
+
+}

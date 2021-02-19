@@ -1,0 +1,107 @@
+fieldset{
+    border: 1px solid red;
+}
+
+legend{
+    font-size: 2rem;
+    margin: 0 0 0 3rem;
+    font-weight: bold;
+}
+
+select{
+    font-size: 1.5rem;
+    background:none;
+    height: 3rem;
+    width: 30%;
+}
+option{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.start_btn{
+    display: flex;
+    justify-content: center;
+    
+}
+.btn{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 10rem;
+    background-color: orange;
+    border: none;
+    border-radius: .5rem;
+    outline: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #eccb8d;
+    cursor: pointer;
+}
+
+/* modal */
+
+.modall{
+    height: 35%;
+    margin: 15% 30% 0 30%; 
+    border: 2px solid black;
+    background-color: white;
+}
+
+.modal_head{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: orange;
+    padding: 1rem;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+.modal_content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.actual_con{
+    margin-top: 2rem;
+}
+
+label{
+    font-size: 2rem;
+}
+input{
+    margin: 1rem;
+    width: 20rem;
+    padding: .3rem;
+    font-size: 1.5rem;
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.btn_set{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    font-size: 2rem;
+    margin: 1rem;
+    padding: .5rem;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.suc{
+    background-color: rgb(161, 241, 80);
+}
+.dan{
+    background-color: rgb(223, 45, 80);
+}
